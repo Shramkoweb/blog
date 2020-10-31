@@ -25,9 +25,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Built with &#9829;
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://shramko.netlify.app/" target="_blank" rel="noreferrer" >Serhii Shramko</a>
       </footer>
     </div>
   )
