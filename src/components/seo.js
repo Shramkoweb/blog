@@ -51,6 +51,22 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: `https://shramkoweb.github.io/Portfolio/img/computer@2x.png`,
+        },
+        {
+          property: `og:image:type`,
+          content: `image/png`,
+        },
+        {
+          property: `og:image:width`,
+          content: `993`,
+        },
+        {
+          property: `og:image:height`,
+          content: `763`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
