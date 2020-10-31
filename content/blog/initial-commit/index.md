@@ -12,7 +12,7 @@ description: "Раз, Два, Три - блог живи!"
 Поменяв профессию я начал считать себя новичком и&nbsp;боялся из-за этого писать.
 > Сейчас считаю, что это было большой ошибкой и стоит вести блог или YouTube канал с самого начала.
 
-### Триггер
+#### Триггер
 
 Решил все таки писать по случайности, попав на канал к 
 [Никите](https://www.youtube.com/channel/UCBwzYyUeHimj90e3fqJtrlA "Канал Никиты") и
@@ -29,7 +29,7 @@ description: "Раз, Два, Три - блог живи!"
   кто ты&nbsp;и&nbsp;что.
 
 
-### Полезности
+#### Полезности
 
 - [Blog - The Complete Beginner’s Guide](https://bloggingwizard.com/how-to-promote-your-blog/ "How To Promote Your Blog: The Complete Beginner’s Guide")
 - [10 Killer Tips - How to Format a Perfect Blog Post](https://writtent.com/blog/format-perfect-blog-post-10-tips/ "How to Format a Perfect Blog Post")
