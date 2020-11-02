@@ -1,13 +1,23 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
-  const post = data.markdownRemark
-  const { previous, next } = data
+  const post = data.markdownRemark;
+  const { previous, next } = data;
+
+  const disqusConfig = {
+    url: `${'shramko-blog.vercel.app' + location.pathname}`,
+    identifier: post.id,
+    title: post.frontmatter.title,
+  }
+
+  console.log(disqusConfig)
 
   return (
     <Layout location={location}>
@@ -29,6 +39,9 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
+        <CommentCount config={disqusConfig} placeholder={'?'} />
+        <Disqus config={disqusConfig} />
+
         <footer>
           <Bio />
         </footer>
