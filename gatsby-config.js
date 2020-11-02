@@ -1,6 +1,9 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Сергей Шрамко`,
+    url: `https://shramko-blog.vercel.app`,
     author: {
       name: `Сергей Шрамко`,
       summary: `Фронтенд разработчик с Киева. 2+ года опыта, наставник в HTML Academy.`,
@@ -18,6 +21,12 @@ module.exports = {
         path: `${__dirname}/content/blog`,
         name: `blog`,
       },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `${process.env.DISQUS_SHORTNAME}`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
