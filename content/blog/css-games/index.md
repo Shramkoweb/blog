@@ -65,4 +65,4 @@ https://cssbattle.dev/
 ![CSS Battle game screenshot](cssbattle.png)
 
 #### Полезности
-- [Сайт с обучающими играми и программировании](https://codepip.com/games/)
+- [Сайт с обучающими играми о программировании](https://codepip.com/games/)
