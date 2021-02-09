@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
 const Bio = () => {
@@ -46,12 +46,12 @@ const Bio = () => {
           alt={author?.name || ``}
           className="bio-avatar"
           imgStyle={{
-            borderRadius: `50%`,
+            borderRadius: `50%`
           }}
         />
       )}
       <p>
-        Блог о <b>front-end</b> разработке и моем пути в IT.<br/>
+        Блог о <b>front-end</b> разработке и моем пути в IT.<br />
         Занимаюсь менторством и помогаю начинающим разработчикам освоить <b>HTML</b> и <b>CSS</b>.
       </p>
     </div>

@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.frontmatter.description || post.excerpt
                     }}
                     itemProp="description"
                   />

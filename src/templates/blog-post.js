@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,7 +29,7 @@ const BlogPostTemplate = ({ data, location }) => {
         />
 
       </article>
-      <hr/>
+      <hr />
       <nav className="blog-post-nav">
         <ul
           style={{
