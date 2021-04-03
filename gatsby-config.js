@@ -6,7 +6,7 @@ module.exports = {
     url: `https://shramko-blog.vercel.app`,
     author: {
       name: `Сергей Шрамко`,
-      summary: `Фронтенд разработчик с Киева. 2+ года опыта, наставник в HTML Academy.`,
+      summary: `Фронтенд разработчик с Киева. 2,5+ года опыта, наставник в HTML Academy.`,
     },
     description: `Персональный блог о разработке, обучении и менторстве.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
@@ -82,8 +82,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
