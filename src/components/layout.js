@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Built with &#9829;
         {` `}
-        <a href="https://shramko.netlify.app/" target="_blank" rel="noreferrer">Serhii Shramko</a>
+        <a href="https://shramko.dev/">Serhii Shramko</a>
       </footer>
     </div>
   )
