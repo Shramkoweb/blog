@@ -54,7 +54,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `${ogImage}`
+          content: `https://shramko.xyz/${ogImage}`
         },
         {
           property: `og:image:type`,
